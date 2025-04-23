@@ -1,0 +1,132 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+h2{
+    margin-top: 5%;
+    text-decoration: underline;
+}
+.container {
+    background-color: #8caead;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 600px;
+    height: 720px;;
+}
+
+.registration-form h2 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 2px;
+    font-weight: bold;
+    padding-bottom: 2px;
+}
+
+.form p {
+    display: block;
+    font-weight: bold;
+    /* padding-bottom: 1px; */
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #000000;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.form-group input:focus {
+    border-color: #0b2139;
+    outline: none;
+}
+
+.bu {
+    margin-left: 80px;
+    justify-content: center;
+    display: flex;
+}
+
+.button {
+    margin: 10px;
+    width: 30%;
+    padding: 10px;
+    background-color: #236d3a;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.3s ease-in;
+}
+
+.button:hover {
+    background-color: #a39760;
+    color: black;
+}
+
+.select {
+    padding-bottom: 5px;
+    font-weight: bold;
+    width: 100px;
+    display: block;
+
+}
+
+.message {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.message a {
+    color: #e0e4e8;
+    text-decoration: none;
+}
+
+.message a:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+.form-group textarea{
+    width: 100%;
+    padding: 10px;
+    border: 1px  solid #000;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+
+
+.back-button {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.back-button a {
+    padding: 12px 30px;
+    background-color: #34495e;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+.back-button a:hover {
+    background-color: #2c3e50;
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+
+<body>
+    <div class="container">
+        <form class="registration-form">
+            <center>
+                <h2>Register</h2>
+            </center>
+            <div class="form-group">
+                <label for="username"> Enter your name :</label>
+                <input type="text" id="username" name="username" placeholder="Enter your name" required>
+            </div>
+            <div class="form">
+                <p>Gender :</p>
+                <input type="radio" name="gender" id="Male">
+                <label for="Male">Male</label><br>
+                <input type="radio" name="gender" id="Female">
+                <label for="Female">Female</label><br>
+            </div>
+            <br>
+            <div class="form-group">
+                <label for="Phone number">Phone number : </label>
+                <input type="phone" placeholder="+91**">
+            </div>
+            <div class="form-group">
+                <label for="Date">Date of birth : </label>
+                <input type="date" placeholder="dd/mm/yyyy">
+            </div>
+            <div class="form-group">
+                <label for="email">Email : </label>
+                <input type="email" id="email" name="email">
+            </div>
+
+                <div class="form-group">
+                    <label for="message">Message : </label>
+                    <textarea id="message" rows="4" placeholder="Your message......"></textarea>
+                </div>
+
+
+                <div class="bu">
+                    <input type="submit" class="button">
+                    <input type="reset" class="button">
+                </div>
+                <p class="message">Already registered? <a href="#">Login</a></p>
+        </form>
+
+        <div class="back-button">
+            <a href="index.html"> Back To Dashboard</a>
+        </div>
+
+        
+    </div>
+
+</body>
+
+</html>
